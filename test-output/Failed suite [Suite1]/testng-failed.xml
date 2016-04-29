@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite1]]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Regression1(failed)(failed)">
+    <classes>
+      <class name="com.fp.core.cheapoair.Add_CoTraveler">
+        <methods>
+          <include name="Close_Instance"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.fp.core.cheapoair.Add_CoTraveler -->
+      <class name="com.fp.core.cheapoair.Android_Feedback">
+        <methods>
+          <include name="Close_Instance"/>
+          <include name="Android_Feedback_Script"/>
+        </methods>
+      </class> <!-- com.fp.core.cheapoair.Android_Feedback -->
+      <class name="com.fp.core.cheapoair.Delete_CoTraveler">
+        <methods>
+          <include name="Del_Cotraveler"/>
+          <include name="Close_Instance"/>
+        </methods>
+      </class> <!-- com.fp.core.cheapoair.Delete_CoTraveler -->
+      <class name="com.fp.core.cheapoair.Promo_Code_Verification">
+        <methods>
+          <include name="Promo_Code_Verify"/>
+          <include name="Close_Instance"/>
+        </methods>
+      </class> <!-- com.fp.core.cheapoair.Promo_Code_Verification -->
+      <class name="com.fp.core.cheapoair.Total_Price_Check">
+        <methods>
+          <include name="Total_Price_Script"/>
+          <include name="Close_Instance"/>
+        </methods>
+      </class> <!-- com.fp.core.cheapoair.Total_Price_Check -->
+    </classes>
+  </test> <!-- Regression1(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite1]] -->
